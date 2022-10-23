@@ -14,8 +14,8 @@ enum Operadores {
 }
 
 void main() {
-  Operadores tipoOperacion = Operadores.producto;
-  valor1 = 8;
+  Operadores tipoOperacion = Operadores.multiplicacion;
+  valor1 = 10;
   valor2 = 2;
 
   switch (tipoOperacion) {
